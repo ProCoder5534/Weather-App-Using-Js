@@ -1,0 +1,63 @@
+body {
+    font-size: 15pt;
+    background-color: rgba(63, 77, 71, 1);
+   font-family: Segoe UI Symbol;
+}
+.Weather{
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+padding: 0px;
+  background-color: hsla(203, 75%, 16%, 0.83) ;
+  border-radius: 15px;
+  border: dotted 1px white;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+#submit {
+  background-color: rgba(32, 177, 47, 1);
+  border-radius: 5px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-top: 2%;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#city{
+  font-size: 15px;
+  border: solid 1px black;
+  border-radius: 5px;
+  text-align: center;
+  color: rgba(203, 142, 19, 1);
+  background-color: rgba(28, 66, 100, 1);
+  font-weight: bolder;
+  
+}
+#alert{
+  display: none;
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+}
+ #notFound {
+    display: none;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+  }
+ 
+#desc{
+  font-style: italic;
+}
+#temp{
+  color: #FDE8C1;
+}
+#humidity{
+  color: #B1DAF2;
+}
