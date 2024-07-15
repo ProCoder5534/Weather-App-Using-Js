@@ -1,0 +1,159 @@
+html {
+  background-image: url('https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI Symbol;
+  min-height: 100%;
+  height:100%;
+}
+
+.Weather {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 0px;
+  background-color: hsla(203, 65%, 23%, 0.62);
+  border-radius: 15px;
+  border: dotted 1px white;
+  width: 75%;
+  margin: 0 auto;
+  backdrop-filter: blur(5px);
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+
+}
+
+#submit {
+  margin: 5px;
+  display: inline-block;
+  outline: 0;
+  appearance: none;
+  padding: 0px 12px;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(9, 128, 76);
+  box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  height: 36px;
+  transition: all 150ms ease-in-out 0s;
+
+
+
+}
+
+#submit:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(17, 97, 73);
+  box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
+}
+
+#locationBtn {
+  margin: 5px;
+  display: inline-block;
+  outline: 0;
+  appearance: none;
+  padding: 0px 12px;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(9, 128, 76);
+  box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  height: 43px;
+  transition: all 150ms ease-in-out 0s;
+
+}
+
+#locationBtn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(17, 97, 73);
+  box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
+}
+
+/*#city{
+  font-size: 15px;
+  border: solid 1px black;
+  border-radius: 5px;
+  text-align: center;
+  color: rgba(203, 142, 19, 1);
+  background-color: rgba(28, 66, 100, 1);
+  font-weight: bolder;
+  height: 40px;
+  
+}*/
+#city {
+
+  width: 100%;
+  height: 36px;
+  border-radius: 4px;
+  padding-left: 12px;
+  font-size: 14px;
+  font-weight: normal;
+  border: 1px solid rgb(137, 151, 155);
+  transition: border-color 150ms ease-in-out 0s;
+  outline: none;
+  color: rgb(33, 49, 60);
+  background-color: rgb(255, 255, 255);
+  padding-right: 12px;
+}
+
+#city:hover {
+  box-shadow: rgb(231 238 236) 0px 0px 0px 3px;
+}
+
+#alert {
+  display: none;
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+}
+
+#notFound {
+  display: none;
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+}
+
+#locationErr {
+  display: none;
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+}
+
+#desc {
+  font-style: italic;
+}
+
+#temp {
+  color: #FDE8C1;
+}
+
+#humidity {
+  color: #B1DAF2;
+}
